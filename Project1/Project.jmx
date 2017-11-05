@@ -258,19 +258,19 @@
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
               <collectionProp name="Arguments.arguments">
-                <elementProp name="loginForm.login" elementType="HTTPArgument">
+                <elementProp name="login" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">$(login)</stringProp>
+                  <stringProp name="Argument.value">${login}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">loginForm.login</stringProp>
+                  <stringProp name="Argument.name">login</stringProp>
                 </elementProp>
-                <elementProp name="loginForm.password" elementType="HTTPArgument">
+                <elementProp name="password" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                  <stringProp name="Argument.value">$(password)</stringProp>
+                  <stringProp name="Argument.value">${password}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">loginForm.password</stringProp>
+                  <stringProp name="Argument.name">password</stringProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
