@@ -29,7 +29,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Login.csv</stringProp>
+          <stringProp name="filename">C:\Users\HP\Desktop\Login.csv</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -103,17 +103,13 @@
                   <stringProp name="Header.name">User-Agent</stringProp>
                   <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36 Name </stringProp>
                 </elementProp>
-                <elementProp name="" elementType="Header">
-                  <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value"></stringProp>
-                </elementProp>
               </collectionProp>
             </HeaderManager>
             <hashTree/>
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">v1</stringProp>
-              <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;FormValue_ListID&quot; value=&quot;(.+?)&quot; /&gt;</stringProp>
+              <stringProp name="RegexExtractor.regex">app_shop.txt.txt_76942_cachedBasketLogin1 = &apos;Zaloguj&apos;;</stringProp>
               <stringProp name="RegexExtractor.template">$1$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
@@ -328,9 +324,9 @@
             <hashTree/>
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-              <stringProp name="RegexExtractor.refname">v3</stringProp>
-              <stringProp name="RegexExtractor.regex">&lt;script type=&quot;text/javascript&quot; class=&quot;ajax(.+?)&quot;&gt;</stringProp>
-              <stringProp name="RegexExtractor.template">$3$</stringProp>
+              <stringProp name="RegexExtractor.refname">v2</stringProp>
+              <stringProp name="RegexExtractor.regex">Witaj Aleksandra</stringProp>
+              <stringProp name="RegexExtractor.template">$2$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
             </RegexExtractor>
@@ -373,7 +369,7 @@
             <hashTree/>
           </hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
-            <stringProp name="IfController.condition">${v3} != &quot;ERROR&quot;</stringProp>
+            <stringProp name="IfController.condition">${v2} != &quot;ERROR&quot;</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
@@ -650,16 +646,16 @@
             <hashTree/>
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-              <stringProp name="RegexExtractor.refname">v2</stringProp>
-              <stringProp name="RegexExtractor.regex">&lt;script type=&quot;text/javascript&quot; src=&quot;(.+?)r=1509026312&quot;&gt;</stringProp>
-              <stringProp name="RegexExtractor.template">$2$</stringProp>
+              <stringProp name="RegexExtractor.refname">v3</stringProp>
+              <stringProp name="RegexExtractor.regex">Zamówienia (.+?)</stringProp>
+              <stringProp name="RegexExtractor.template">$3$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
             </RegexExtractor>
             <hashTree/>
           </hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller V2" enabled="true">
-            <stringProp name="IfController.condition">${v2} != &quot;ERROR&quot;</stringProp>
+            <stringProp name="IfController.condition">${v3} != &quot;ERROR&quot;</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
@@ -864,7 +860,40 @@
           </HTTPSamplerProxy>
           <hashTree>
             <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-              <collectionProp name="HeaderManager.headers"/>
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl,en-US;q=0.7,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">text/html; charset=utf-8</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">no-store, no-cache, must-revalidate</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://ebutik.pl/client-orders.php?display=closed</stringProp>
+                </elementProp>
+              </collectionProp>
             </HeaderManager>
             <hashTree/>
             <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -905,16 +934,16 @@
             <hashTree/>
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-              <stringProp name="RegexExtractor.refname">v3</stringProp>
-              <stringProp name="RegexExtractor.regex">&lt;script type=&quot;text/javascript&quot; src=&quot;(.+?)&quot;&gt;</stringProp>
-              <stringProp name="RegexExtractor.template">$3$</stringProp>
+              <stringProp name="RegexExtractor.refname">v4</stringProp>
+              <stringProp name="RegexExtractor.regex">app_shop.vars.curr_url= &quot;(.+?)838097&quot;;</stringProp>
+              <stringProp name="RegexExtractor.template">$4$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
             </RegexExtractor>
             <hashTree/>
           </hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If ControllerSearchProduct" enabled="true">
-            <stringProp name="IfController.condition">${v3} != &quot;ERROR&quot;</stringProp>
+            <stringProp name="IfController.condition">${v4} != &quot;ERROR&quot;</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
