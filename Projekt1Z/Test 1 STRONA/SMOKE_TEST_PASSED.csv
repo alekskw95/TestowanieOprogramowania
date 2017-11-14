@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1510701760885,2969,Page,200,OK,Grupa wątków 1-1,text,true,,25697,504,1,1,2937,0,2777
+1510701764060,203,icons,200,OK,Grupa wątków 1-1,bin,true,,3002,615,1,1,202,0,162
+1510701768250,1027,Login,200,OK,Grupa wątków 1-1,text,true,,21742,1525,1,1,544,0,232
+1510701771418,534,History,200,OK,Grupa wątków 1-1,text,true,,20640,877,1,1,504,0,179
+1510701775909,551,CustomerData,200,OK,Grupa wątków 1-1,text,true,,23770,835,1,1,519,0,167
+1510701779901,508,Orders,200,OK,Grupa wątków 1-1,text,true,,20640,843,1,1,479,0,171
+1510701783934,705,Order703194,200,OK,Grupa wątków 1-1,text,true,,60221,461,1,1,641,0,180
+1510701787735,242,Photo703194,200,OK,Grupa wątków 1-1,bin,true,,26389,460,1,1,234,0,167
+1510701792216,240,Facture703194,200,OK,Grupa wątków 1-1,bin,true,,4991,459,1,1,236,0,199
+1510701796200,677,SearchProduct,200,OK,Grupa wątków 1-1,text,true,,20665,834,1,1,642,0,176
+1510701799761,340,SearchProductIcon,200,OK,Grupa wątków 1-1,bin,true,,28093,460,1,1,333,0,257
+1510701807904,1409,SearchProduct 2,200,OK,Grupa wątków 1-1,text,true,,31118,829,1,1,1371,0,195
+1510701811040,814,Logout,200,OK,Grupa wątków 1-1,text,true,,26080,2673,1,1,436,0,167
