@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1510655886835,319,SearchProduct NO,404,Not Found,Grupa wątków 1-1,text,false,,60375,431,1,1,253,0,186
