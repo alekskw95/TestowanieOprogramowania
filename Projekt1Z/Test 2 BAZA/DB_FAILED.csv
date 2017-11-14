@@ -1,2 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1510699939501,4,JDBC Request Select TEST,null 0,java.sql.SQLException: Cannot create PoolableConnectionFactory (Unknown database 'hotelsp'),Grupa wątków 1-1,text,false, DB_FAILED ,68,0,1,1,0,0,4
