@@ -19,14 +19,14 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1510048087000</longProp>
-        <longProp name="ThreadGroup.end_time">1510048087000</longProp>
+        <longProp name="ThreadGroup.start_time">1510770720000</longProp>
+        <longProp name="ThreadGroup.end_time">1510738500000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV VALUE" enabled="true">
           <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\VALUE.csv</stringProp>
           <stringProp name="fileEncoding">UTF-8</stringProp>
           <stringProp name="variableNames">name,name2</stringProp>
@@ -159,7 +159,7 @@ where miejscowosc=&apos;${name}&apos; or miejscowosc=&apos;${name2}&apos;;</stri
           <stringProp name="resultSetHandler">Store as String</stringProp>
         </JDBCSampler>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request Select Hotel" enabled="true">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request Select Hotels" enabled="true">
           <stringProp name="dataSource">TEST</stringProp>
           <stringProp name="queryType">Select Statement</stringProp>
           <stringProp name="query">select nazwa, miejscowosc
@@ -199,7 +199,7 @@ where nazwa=&apos;${hotel}&apos; and miejscowosc=&apos;${mstare}&apos;;</stringP
           <stringProp name="variableNames"></stringProp>
         </JDBCSampler>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request Select Hotel 2" enabled="true">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request Select Hotels 2" enabled="true">
           <stringProp name="dataSource">TEST</stringProp>
           <stringProp name="queryType">Select Statement</stringProp>
           <stringProp name="query">select nazwa, miejscowosc
