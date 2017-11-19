@@ -119,7 +119,7 @@
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">v1</stringProp>
-              <stringProp name="RegexExtractor.regex">&lt;meta name=&quot;certum-domain-verification&quot; content=&quot;4c7f2929ba4fa3e6021b0dd440561f52&quot; /&gt;</stringProp>
+              <stringProp name="RegexExtractor.regex">&lt;meta name=&quot;certum-domain-verification&quot; content=&quot;4c7f2929ba4fa3e6021b0dd440561f52Y&quot; /&gt;</stringProp>
               <stringProp name="RegexExtractor.template">$1$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
@@ -128,11 +128,11 @@
             <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
               <stringProp name="BeanShellAssertion.query">if(&quot;${v1}&quot; == &quot;ERROR&quot;){
 	FailureMessage = &quot; Icons-&gt; SMOKE_TEST_FAILED &quot;;
-	
 }
 else{
 	FailureMessage = &quot; Icons-&gt; SMOKE_TEST_PASSED&quot;;
-}</stringProp>
+}
+</stringProp>
               <stringProp name="BeanShellAssertion.filename"></stringProp>
               <stringProp name="BeanShellAssertion.parameters"></stringProp>
               <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
@@ -166,7 +166,7 @@ else{
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Smoke_Test_PassedOrSmoke_Test_Failed.csv</stringProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\PassedOrFailed.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -233,136 +233,130 @@ else{
               <hashTree/>
             </hashTree>
           </hashTree>
-          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller Login" enabled="true">
-            <stringProp name="IfController.condition">${v1} != &quot;ERROR&quot;</stringProp>
-            <boolProp name="IfController.evaluateAll">false</boolProp>
-          </IfController>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="login" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${login}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">login</stringProp>
+                </elementProp>
+                <elementProp name="password" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">${password}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">password</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">ebutik.pl</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+            <stringProp name="HTTPSampler.path">/signin.php</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
-                <collectionProp name="Arguments.arguments">
-                  <elementProp name="login" elementType="HTTPArgument">
-                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                    <stringProp name="Argument.value">${login}</stringProp>
-                    <stringProp name="Argument.metadata">=</stringProp>
-                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                    <stringProp name="Argument.name">login</stringProp>
-                  </elementProp>
-                  <elementProp name="password" elementType="HTTPArgument">
-                    <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                    <stringProp name="Argument.value">${password}</stringProp>
-                    <stringProp name="Argument.metadata">=</stringProp>
-                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                    <stringProp name="Argument.name">password</stringProp>
-                  </elementProp>
-                </collectionProp>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain">ebutik.pl</stringProp>
-              <stringProp name="HTTPSampler.port"></stringProp>
-              <stringProp name="HTTPSampler.protocol">https</stringProp>
-              <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-              <stringProp name="HTTPSampler.path">/signin.php</stringProp>
-              <stringProp name="HTTPSampler.method">POST</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
-                <collectionProp name="HeaderManager.headers">
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Accept-Language</stringProp>
-                    <stringProp name="Header.value">pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7 </stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Accept</stringProp>
-                    <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 </stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
-                    <stringProp name="Header.value">1</stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Content-Type</stringProp>
-                    <stringProp name="Header.value">application/x-www-form-urlencoded </stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Cache-Control</stringProp>
-                    <stringProp name="Header.value">max-age=0 </stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Accept-Encoding</stringProp>
-                    <stringProp name="Header.value">gzip, deflate, br </stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">User-Agent</stringProp>
-                    <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36</stringProp>
-                  </elementProp>
-                  <elementProp name="" elementType="Header">
-                    <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">https://ebutik.pl/client-new.php?register </stringProp>
-                  </elementProp>
-                </collectionProp>
-              </HeaderManager>
-              <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
-                <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-                <stringProp name="RegexExtractor.refname">v2</stringProp>
-                <stringProp name="RegexExtractor.regex">&lt;meta name=&quot;google-site-verification&quot; content=&quot;-ymcbJCddFty7r9jyqz1QSZSfiBqlk_DwYjg4iJVRUE&quot; /&gt;</stringProp>
-                <stringProp name="RegexExtractor.template">$2$</stringProp>
-                <stringProp name="RegexExtractor.default">ERROR</stringProp>
-                <stringProp name="RegexExtractor.match_number">0</stringProp>
-              </RegexExtractor>
-              <hashTree/>
-              <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-                <stringProp name="BeanShellAssertion.query">if(&quot;${v2}&quot; == &quot;ERROR&quot;){
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7 </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">max-age=0 </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br </stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://ebutik.pl/client-new.php?register </stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+              <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+              <stringProp name="RegexExtractor.refname">v2</stringProp>
+              <stringProp name="RegexExtractor.regex">&lt;meta name=&quot;google-site-verification&quot; content=&quot;-ymcbJCddFty7r9jyqz1QSZSfiBqlk_DwYjg4iJVRUE&quot; /&gt;</stringProp>
+              <stringProp name="RegexExtractor.template">$2$</stringProp>
+              <stringProp name="RegexExtractor.default">ERROR</stringProp>
+              <stringProp name="RegexExtractor.match_number">0</stringProp>
+            </RegexExtractor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">if(&quot;${v2}&quot; == &quot;ERROR&quot;){
 	FailureMessage = &quot; History-&gt; SMOKE_TEST_FAILED&quot;;
 }
 else{
 	FailureMessage = &quot; History-&gt; SMOKE_TEST_PASSED&quot;;
 }
 </stringProp>
-                <stringProp name="BeanShellAssertion.filename"></stringProp>
-                <stringProp name="BeanShellAssertion.parameters"></stringProp>
-                <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
-              </BeanShellAssertion>
-              <hashTree/>
-              <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer Save" enabled="true">
-                <boolProp name="ResultCollector.error_logging">false</boolProp>
-                <objProp>
-                  <name>saveConfig</name>
-                  <value class="SampleSaveConfiguration">
-                    <time>false</time>
-                    <latency>false</latency>
-                    <timestamp>false</timestamp>
-                    <success>false</success>
-                    <label>true</label>
-                    <code>false</code>
-                    <message>false</message>
-                    <threadName>false</threadName>
-                    <dataType>false</dataType>
-                    <encoding>false</encoding>
-                    <assertions>false</assertions>
-                    <subresults>false</subresults>
-                    <responseData>false</responseData>
-                    <samplerData>false</samplerData>
-                    <xml>false</xml>
-                    <fieldNames>false</fieldNames>
-                    <responseHeaders>false</responseHeaders>
-                    <requestHeaders>false</requestHeaders>
-                    <responseDataOnError>false</responseDataOnError>
-                    <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                    <assertionsResultsToSave>0</assertionsResultsToSave>
-                  </value>
-                </objProp>
-                <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Smoke_Test_PassedOrSmoke_Test_Failed.csv</stringProp>
-              </ResultCollector>
-              <hashTree/>
-            </hashTree>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+            <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer Save" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>false</time>
+                  <latency>false</latency>
+                  <timestamp>false</timestamp>
+                  <success>false</success>
+                  <label>true</label>
+                  <code>false</code>
+                  <message>false</message>
+                  <threadName>false</threadName>
+                  <dataType>false</dataType>
+                  <encoding>false</encoding>
+                  <assertions>false</assertions>
+                  <subresults>false</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>false</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                </value>
+              </objProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\PassedOrFailed.csv</stringProp>
+            </ResultCollector>
+            <hashTree/>
           </hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller v2" enabled="true">
             <stringProp name="IfController.condition">${v2} != &quot;ERROR&quot;</stringProp>
@@ -582,7 +576,7 @@ else{
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Smoke_Test_PassedOrSmoke_Test_Failed.csv</stringProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\PassedOrFailed.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -770,7 +764,7 @@ else{
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Smoke_Test_PassedOrSmoke_Test_Failed.csv</stringProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\PassedOrFailed.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -906,7 +900,7 @@ else {
                   <latency>false</latency>
                   <timestamp>false</timestamp>
                   <success>false</success>
-                  <label>true</label>
+                  <label>false</label>
                   <code>false</code>
                   <message>false</message>
                   <threadName>false</threadName>
@@ -925,14 +919,14 @@ else {
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\RandomVariableYesOrNo.csv</stringProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Does the value occur.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable 2" enabled="true">
-            <stringProp name="maximumValue">9</stringProp>
-            <stringProp name="minimumValue">0</stringProp>
-            <stringProp name="outputFormat">0</stringProp>
+            <stringProp name="maximumValue">5</stringProp>
+            <stringProp name="minimumValue">2</stringProp>
+            <stringProp name="outputFormat">00000</stringProp>
             <boolProp name="perThread">false</boolProp>
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">LOS2</stringProp>
@@ -997,7 +991,7 @@ else {
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">v5</stringProp>
-              <stringProp name="RegexExtractor.regex">${LOS2}36940</stringProp>
+              <stringProp name="RegexExtractor.regex">236940</stringProp>
               <stringProp name="RegexExtractor.template">$5$</stringProp>
               <stringProp name="RegexExtractor.default">ERROR</stringProp>
               <stringProp name="RegexExtractor.match_number">0</stringProp>
@@ -1005,7 +999,7 @@ else {
             </RegexExtractor>
             <hashTree/>
             <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-              <stringProp name="BeanShellAssertion.query">if(&quot;${v5}&quot; != &quot;ERROR&quot;) {
+              <stringProp name="BeanShellAssertion.query">if( ResponseHeaders.equals(&quot;${LOS2}&quot;)) {
 		FailureMessage = &quot; Value occurs &quot;;
 } 	
 else {
@@ -1026,7 +1020,7 @@ else {
                   <latency>false</latency>
                   <timestamp>false</timestamp>
                   <success>false</success>
-                  <label>true</label>
+                  <label>false</label>
                   <code>false</code>
                   <message>false</message>
                   <threadName>false</threadName>
@@ -1045,7 +1039,7 @@ else {
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\RandomVariableYesOrNo.csv</stringProp>
+              <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Does the value occur 2.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -1237,7 +1231,7 @@ else {
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\TEST_FAILED.csv</stringProp>
+            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\SMOKE_TEST_FAILED.csv</stringProp>
           </ResultCollector>
           <hashTree/>
           <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer Test Passed" enabled="true">
@@ -1273,116 +1267,8 @@ else {
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\TEST_PASSED.csv</stringProp>
+            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\SMOKE_TEST_PASSED.csv</stringProp>
             <boolProp name="ResultCollector.success_only_logging">true</boolProp>
-          </ResultCollector>
-          <hashTree/>
-          <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
-            <boolProp name="ResultCollector.error_logging">false</boolProp>
-            <objProp>
-              <name>saveConfig</name>
-              <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
-                <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
-                <dataType>true</dataType>
-                <encoding>false</encoding>
-                <assertions>true</assertions>
-                <subresults>true</subresults>
-                <responseData>false</responseData>
-                <samplerData>false</samplerData>
-                <xml>false</xml>
-                <fieldNames>true</fieldNames>
-                <responseHeaders>false</responseHeaders>
-                <requestHeaders>false</requestHeaders>
-                <responseDataOnError>false</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <sentBytes>true</sentBytes>
-                <threadCounts>true</threadCounts>
-                <idleTime>true</idleTime>
-                <connectTime>true</connectTime>
-              </value>
-            </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\Server load.csv</stringProp>
-          </ResultCollector>
-          <hashTree/>
-          <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
-            <boolProp name="ResultCollector.error_logging">false</boolProp>
-            <objProp>
-              <name>saveConfig</name>
-              <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
-                <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
-                <dataType>true</dataType>
-                <encoding>false</encoding>
-                <assertions>true</assertions>
-                <subresults>true</subresults>
-                <responseData>false</responseData>
-                <samplerData>false</samplerData>
-                <xml>false</xml>
-                <fieldNames>true</fieldNames>
-                <responseHeaders>false</responseHeaders>
-                <requestHeaders>false</requestHeaders>
-                <responseDataOnError>false</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <sentBytes>true</sentBytes>
-                <threadCounts>true</threadCounts>
-                <idleTime>true</idleTime>
-                <connectTime>true</connectTime>
-              </value>
-            </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 1 STRONA\ResponseTimeGraph.csv</stringProp>
-          </ResultCollector>
-          <hashTree/>
-          <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Wykres skumulowany" enabled="true">
-            <boolProp name="ResultCollector.error_logging">false</boolProp>
-            <objProp>
-              <name>saveConfig</name>
-              <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
-                <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
-                <dataType>true</dataType>
-                <encoding>false</encoding>
-                <assertions>true</assertions>
-                <subresults>true</subresults>
-                <responseData>false</responseData>
-                <samplerData>false</samplerData>
-                <xml>false</xml>
-                <fieldNames>true</fieldNames>
-                <responseHeaders>false</responseHeaders>
-                <requestHeaders>false</requestHeaders>
-                <responseDataOnError>false</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <sentBytes>true</sentBytes>
-                <threadCounts>true</threadCounts>
-                <idleTime>true</idleTime>
-                <connectTime>true</connectTime>
-              </value>
-            </objProp>
-            <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
