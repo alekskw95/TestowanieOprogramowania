@@ -1,0 +1,6 @@
+label,failureMessage
+JDBC Request Select Value in CSV,"org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``if(vars.getobject(""JDBC Request Select Value in CSV"").time < 5){ 	FailureMessage . . . '' : Error in method invocation: Method getobject( java.lang.String ) not found in class'org.apache.jmeter.threads.JMeterVariables'"
+JDBC Request Select Hotels, 0 
+JDBC Request Insert , 0 
+JDBC Request Update , 0 
+JDBC Request Select Hotels 2, 0 

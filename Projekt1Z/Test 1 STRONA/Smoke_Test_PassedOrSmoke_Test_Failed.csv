@@ -1,0 +1,4 @@
+Page, Icons-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+SearchProduct, Product-> SMOKE_TEST_PASSED
