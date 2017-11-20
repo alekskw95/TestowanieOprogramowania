@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="377" it="0" lt="345" ct="165" ts="1511133001763" s="true" lb="Page" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="25744" sby="504" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="1093" it="0" lt="1084" ct="915" ts="1511217365774" s="true" lb="Page" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="25704" sby="504" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
@@ -9,20 +9,20 @@
   </assertionResult>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:04 GMT
+Date: Mon, 20 Nov 2017 22:36:07 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Set-Cookie: client=0kgl34nbb03bta8355hs7fiq91; path=/
+Set-Cookie: client=froakf2a1tjrnmhnlseakeqjb6; path=/
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: client=8o0brhims938gf4e3drnha4sc3; path=/
-Set-Cookie: basket_id=8o0brhims938gf4e3drnha4sc3; expires=Tue, 21-Nov-2017 23:10:04 GMT; Max-Age=172800
-Set-Cookie: __IAI_AC2=5a120f4c2c7d76.92302651; expires=Wed, 03-Jan-2018 23:10:04 GMT; Max-Age=3888000
-Set-Cookie: page_counter=1; expires=Mon, 20-Nov-2017 23:10:04 GMT; Max-Age=86400
+Set-Cookie: client=mm30fn187s1rejsbb6hh1bnl73; path=/
+Set-Cookie: basket_id=mm30fn187s1rejsbb6hh1bnl73; expires=Wed, 22-Nov-2017 22:36:07 GMT; Max-Age=172800
+Set-Cookie: __IAI_AC2=5a1358d78f2c04.55486632; expires=Thu, 04-Jan-2018 22:36:07 GMT; Max-Age=3888000
+Set-Cookie: page_counter=1; expires=Tue, 21-Nov-2017 22:36:07 GMT; Max-Age=86400
 X-Cache-Engine: m
 Vary: Accept-Encoding
-Content-Length: 25010
+Content-Length: 24970
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -39,16 +39,16 @@ Host: ebutik.pl
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="217" it="0" lt="216" ct="176" ts="1511133005365" s="true" lb="icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="3002" sby="615" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="220" it="0" lt="217" ct="179" ts="1511217368387" s="true" lb="icons" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="3002" sby="615" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:07 GMT
+Date: Mon, 20 Nov 2017 22:36:09 GMT
 Content-Type: image/png
 Content-Length: 2678
 Connection: keep-alive
 Etag: f10272cad5ad7909d56878e83eb32bd1
 Last-Modified: Tue, 03 Jan 2017 08:54:27 GMT
-Expires: Sun, 26 Nov 2017 23:10:07 GMT
+Expires: Mon, 27 Nov 2017 22:36:09 GMT
 Cache-Control: max-age=604800
 X-IAI-SERVED-FROM: memc
 </responseHeader>
@@ -63,32 +63,32 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/ 
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; page_counter=1</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; page_counter=1</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="1162" it="0" lt="639" ct="217" ts="1511133009545" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="21742" sby="1525" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="964" it="0" lt="461" ct="183" ts="1511217373504" s="true" lb="Login" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="21741" sby="1525" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage> History-&gt; SMOKE_TEST_PASSED</failureMessage>
   </assertionResult>
-  <httpSample t="639" it="0" lt="639" ct="217" ts="1511133009545" s="true" lb="https://ebutik.pl/signin.php" rc="302" rm="Moved Temporarily" tn="Grupa wątków 1-1" dt="text" by="734" sby="752" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+  <httpSample t="461" it="0" lt="461" ct="183" ts="1511217373504" s="true" lb="https://ebutik.pl/signin.php" rc="302" rm="Moved Temporarily" tn="Grupa wątków 1-1" dt="text" by="734" sby="752" ng="1" na="1" hn="DESKTOP-7DAA6AL">
     <responseHeader class="java.lang.String">HTTP/1.1 302 Moved Temporarily
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:12 GMT
+Date: Mon, 20 Nov 2017 22:36:14 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 0
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: CURRID=PLN; expires=Fri, 18-May-2018 23:10:11 GMT; Max-Age=15552000; path=/
+Set-Cookie: CURRID=PLN; expires=Sat, 19-May-2018 22:36:14 GMT; Max-Age=15552000; path=/
 Set-Cookie: login=aleksandra_kwapisz@wp.pl; SameSite=Strict
-Set-Cookie: samedayZipcode=97-400; expires=Sat, 17-Feb-2018 23:10:11 GMT; Max-Age=7776000; path=/
-Set-Cookie: REGID=1143020003; expires=Fri, 18-May-2018 23:10:12 GMT; Max-Age=15552000; path=/
-Set-Cookie: LANGID=pol; expires=Fri, 18-May-2018 23:10:12 GMT; Max-Age=15552000; path=/
+Set-Cookie: samedayZipcode=97-400; expires=Sun, 18-Feb-2018 22:36:14 GMT; Max-Age=7776000; path=/
+Set-Cookie: REGID=1143020003; expires=Sat, 19-May-2018 22:36:14 GMT; Max-Age=15552000; path=/
+Set-Cookie: LANGID=pol; expires=Sat, 19-May-2018 22:36:14 GMT; Max-Age=15552000; path=/
 Location: /login.php
 </responseHeader>
     <requestHeader class="java.lang.String">Connection: keep-alive
@@ -103,26 +103,26 @@ Referer: https://ebutik.pl/client-new.php?register
 Content-Length: 54
 Host: ebutik.pl
 </requestHeader>
-    <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; page_counter=1</cookies>
+    <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; page_counter=1</cookies>
     <method class="java.lang.String">POST</method>
     <queryString class="java.lang.String">login=aleksandra_kwapisz%40wp.pl&amp;password=wMMTXb200695</queryString>
     <redirectLocation class="java.lang.String">/login.php</redirectLocation>
   </httpSample>
-  <httpSample t="521" it="0" lt="491" ct="0" ts="1511133010186" s="true" lb="https://ebutik.pl/login.php" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="21008" sby="773" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+  <httpSample t="500" it="0" lt="470" ct="0" ts="1511217373968" s="true" lb="https://ebutik.pl/login.php" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="21007" sby="773" ng="1" na="1" hn="DESKTOP-7DAA6AL">
     <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:12 GMT
+Date: Mon, 20 Nov 2017 22:36:15 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=2; expires=Mon, 20-Nov-2017 23:03:32 GMT; Max-Age=86000
-Set-Cookie: __IAIRSABTVARIANT__=2; expires=Tue, 19-Dec-2017 23:10:12 GMT; Max-Age=2592000
+Set-Cookie: page_counter=2; expires=Tue, 21-Nov-2017 22:29:34 GMT; Max-Age=86000
+Set-Cookie: __IAIRSABTVARIANT__=1; expires=Wed, 20-Dec-2017 22:36:14 GMT; Max-Age=2592000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:12 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:15 GMT; Max-Age=15552000
 Vary: Accept-Encoding
-Content-Length: 20356
+Content-Length: 20355
 Content-Encoding: gzip
 </responseHeader>
     <requestHeader class="java.lang.String">Connection: keep-alive
@@ -136,24 +136,24 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/client-new.php?register 
 Host: ebutik.pl
 </requestHeader>
-    <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; page_counter=1; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol</cookies>
+    <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; page_counter=1; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol</cookies>
     <method class="java.lang.String">GET</method>
     <queryString class="java.lang.String"></queryString>
   </httpSample>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:12 GMT
+Date: Mon, 20 Nov 2017 22:36:15 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=2; expires=Mon, 20-Nov-2017 23:03:32 GMT; Max-Age=86000
-Set-Cookie: __IAIRSABTVARIANT__=2; expires=Tue, 19-Dec-2017 23:10:12 GMT; Max-Age=2592000
+Set-Cookie: page_counter=2; expires=Tue, 21-Nov-2017 22:29:34 GMT; Max-Age=86000
+Set-Cookie: __IAIRSABTVARIANT__=1; expires=Wed, 20-Dec-2017 22:36:14 GMT; Max-Age=2592000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:12 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:15 GMT; Max-Age=15552000
 Vary: Accept-Encoding
-Content-Length: 20356
+Content-Length: 20355
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -167,23 +167,23 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/client-new.php?register 
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; page_counter=1</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; page_counter=1</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
   <redirectLocation class="java.lang.String">/login.php</redirectLocation>
 </httpSample>
-<httpSample t="516" it="0" lt="482" ct="173" ts="1511133012592" s="true" lb="History" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20641" sby="877" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="542" it="0" lt="493" ct="176" ts="1511217376723" s="true" lb="History" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20641" sby="877" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:15 GMT
+Date: Mon, 20 Nov 2017 22:36:18 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=3; expires=Mon, 20-Nov-2017 23:03:34 GMT; Max-Age=86000
+Set-Cookie: page_counter=3; expires=Tue, 21-Nov-2017 22:29:37 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:15 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:17 GMT; Max-Age=15552000
 Vary: Accept-Encoding
 Content-Length: 20080
 Content-Encoding: gzip
@@ -199,24 +199,24 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/login.php 
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; page_counter=2; __IAIRSABTVARIANT__=2; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; page_counter=2; __IAIRSABTVARIANT__=1; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="574" it="0" lt="542" ct="174" ts="1511133017249" s="true" lb="CustomerData" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="23771" sby="835" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="583" it="0" lt="550" ct="175" ts="1511217381158" s="true" lb="CustomerData" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="23770" sby="835" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:19 GMT
+Date: Mon, 20 Nov 2017 22:36:22 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=4; expires=Mon, 20-Nov-2017 23:03:39 GMT; Max-Age=86000
+Set-Cookie: page_counter=4; expires=Tue, 21-Nov-2017 22:29:42 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:19 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:22 GMT; Max-Age=15552000
 Vary: Accept-Encoding
-Content-Length: 23210
+Content-Length: 23209
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -229,11 +229,11 @@ Accept-Encoding: gzip, deflate, br
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36 Name 
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=3; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=3; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="568" it="0" lt="538" ct="176" ts="1511133021204" s="true" lb="Orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20641" sby="843" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="595" it="0" lt="564" ct="170" ts="1511217385141" s="true" lb="Orders" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20641" sby="843" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
@@ -242,15 +242,15 @@ Host: ebutik.pl
   </assertionResult>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:23 GMT
+Date: Mon, 20 Nov 2017 22:36:26 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=5; expires=Mon, 20-Nov-2017 23:03:43 GMT; Max-Age=86000
+Set-Cookie: page_counter=5; expires=Tue, 21-Nov-2017 22:29:46 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:23 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:26 GMT; Max-Age=15552000
 Vary: Accept-Encoding
 Content-Length: 20080
 Content-Encoding: gzip
@@ -265,43 +265,43 @@ Accept-Encoding: gzip, deflate, br
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=4; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=4; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="674" it="0" lt="605" ct="176" ts="1511133025175" s="true" lb="Order703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="60992" sby="461" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="702" it="0" lt="626" ct="165" ts="1511217389105" s="true" lb="Order703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="60992" sby="461" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:27 GMT
+Date: Mon, 20 Nov 2017 22:36:30 GMT
 Content-Type: text/html; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=6; expires=Mon, 20-Nov-2017 23:03:47 GMT; Max-Age=86000
+Set-Cookie: page_counter=6; expires=Tue, 21-Nov-2017 22:29:50 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:27 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:30 GMT; Max-Age=15552000
 Vary: Accept-Encoding
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
 Host: ebutik.pl
 User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=5; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=5; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="269" it="0" lt="232" ct="192" ts="1511133029094" s="true" lb="Photo703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="26332" sby="460" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="251" it="0" lt="213" ct="175" ts="1511217393011" s="true" lb="Photo703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="26332" sby="460" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:31 GMT
+Date: Mon, 20 Nov 2017 22:36:34 GMT
 Content-Type: image/jpeg
 Content-Length: 26006
 Connection: keep-alive
 Etag: 6bf5c73dc65240703211a984af622231
 Last-Modified: Thu, 09 Feb 2017 14:17:30 GMT
-Expires: Sun, 26 Nov 2017 23:10:31 GMT
+Expires: Mon, 27 Nov 2017 22:36:34 GMT
 Cache-Control: max-age=604800
 X-IAI-SERVED-FROM: memc
 </responseHeader>
@@ -309,20 +309,20 @@ X-IAI-SERVED-FROM: memc
 Host: ebutik.pl
 User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="217" it="0" lt="216" ct="178" ts="1511133033501" s="true" lb="Facture703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="4991" sby="459" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="204" it="0" lt="202" ct="167" ts="1511217397450" s="true" lb="Facture703194" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="4991" sby="459" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:35 GMT
+Date: Mon, 20 Nov 2017 22:36:38 GMT
 Content-Type: image/png
 Content-Length: 4667
 Connection: keep-alive
 Etag: f10272cad5ad7909d56878e83eb32bd1
 Last-Modified: Tue, 05 Jun 2012 13:08:53 GMT
-Expires: Sun, 26 Nov 2017 23:10:35 GMT
+Expires: Mon, 27 Nov 2017 22:36:38 GMT
 Cache-Control: max-age=604800
 X-IAI-SERVED-FROM: memc
 </responseHeader>
@@ -330,11 +330,11 @@ X-IAI-SERVED-FROM: memc
 Host: ebutik.pl
 User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="712" it="0" lt="678" ct="173" ts="1511133037536" s="true" lb="SearchProduct" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20768" sby="834" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="699" it="0" lt="669" ct="171" ts="1511217401512" s="true" lb="SearchProduct" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="20768" sby="834" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
@@ -343,15 +343,15 @@ User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
   </assertionResult>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:40 GMT
+Date: Mon, 20 Nov 2017 22:36:42 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=7; expires=Mon, 20-Nov-2017 23:03:59 GMT; Max-Age=86000
+Set-Cookie: page_counter=7; expires=Tue, 21-Nov-2017 22:30:02 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:40 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:42 GMT; Max-Age=15552000
 Vary: Accept-Encoding
 Content-Length: 20207
 Content-Encoding: gzip
@@ -367,54 +367,53 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Fi
 Referer: https://ebutik.pl/client-orders.php?display=closed
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=6; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="269" it="0" lt="259" ct="186" ts="1511133041052" s="true" lb="SearchProductIcon" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="28093" sby="460" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="248" it="0" lt="211" ct="175" ts="1511217405017" s="true" lb="SearchProductIcon" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="bin" by="28036" sby="460" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:43 GMT
+Date: Mon, 20 Nov 2017 22:36:46 GMT
 Content-Type: image/jpeg
-Transfer-Encoding: chunked
+Content-Length: 27710
 Connection: keep-alive
 Etag: 6bf5c73dc65240703211a984af622231
 Last-Modified: Thu, 07 Sep 2017 11:02:13 GMT
-Expires: Sun, 26 Nov 2017 23:10:43 GMT
+Expires: Mon, 27 Nov 2017 22:36:46 GMT
 Cache-Control: max-age=604800
-X-IAI-SERVED-FROM: cgi
+X-IAI-SERVED-FROM: memc
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
 Host: ebutik.pl
 User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=7; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=7; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="511" it="0" lt="443" ct="168" ts="1511133045495" s="false" lb="SearchProduct NO" rc="404" rm="Not Found" tn="Grupa wątków 1-1" dt="text" by="60661" sby="431" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="293" it="0" lt="226" ct="167" ts="1511217409479" s="false" lb="SearchProduct NO" rc="404" rm="Not Found" tn="Grupa wątków 1-1" dt="text" by="60516" sby="431" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:48 GMT
+Date: Mon, 20 Nov 2017 22:36:50 GMT
 Content-Type: text/html; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=8; expires=Mon, 20-Nov-2017 23:04:07 GMT; Max-Age=86000
-X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:48 GMT; Max-Age=15552000
+Set-Cookie: page_counter=8; expires=Tue, 21-Nov-2017 22:30:10 GMT; Max-Age=86000
+X-Cache-Engine: m
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
 Host: ebutik.pl
 User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=7; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=7; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="1726" it="0" lt="1684" ct="196" ts="1511133049270" s="true" lb="Search Page Product Random" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="32179" sby="830" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="1571" it="0" lt="1535" ct="170" ts="1511217413429" s="true" lb="Search Page Product Random" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="31542" sby="830" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
@@ -423,17 +422,17 @@ User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
   </assertionResult>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:53 GMT
+Date: Mon, 20 Nov 2017 22:36:55 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=9; expires=Mon, 20-Nov-2017 23:04:11 GMT; Max-Age=86000
+Set-Cookie: page_counter=9; expires=Tue, 21-Nov-2017 22:30:14 GMT; Max-Age=86000
 X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:52 GMT; Max-Age=15552000
+Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Sat, 19-May-2018 22:36:55 GMT; Max-Age=15552000
 Vary: Accept-Encoding
-Content-Length: 31618
+Content-Length: 30981
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -447,11 +446,11 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Fi
 Referer: https://ebutik.pl/client-orders.php?display=closed
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=8; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; page_counter=8</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="986" it="0" lt="941" ct="164" ts="1511133052016" s="true" lb="Search Page Product Random 2" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="31311" sby="879" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="329" it="0" lt="287" ct="171" ts="1511217416123" s="true" lb="Search Page Product Random 2" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="31149" sby="879" ng="1" na="1" hn="DESKTOP-7DAA6AL">
   <assertionResult>
     <name>BeanShell Assertion</name>
     <failure>false</failure>
@@ -460,17 +459,16 @@ Host: ebutik.pl
   </assertionResult>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:55 GMT
+Date: Mon, 20 Nov 2017 22:36:57 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=10; expires=Mon, 20-Nov-2017 23:04:14 GMT; Max-Age=86000
-X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:55 GMT; Max-Age=15552000
+Set-Cookie: page_counter=10; expires=Tue, 21-Nov-2017 22:30:17 GMT; Max-Age=86000
+X-Cache-Engine: m
 Vary: Accept-Encoding
-Content-Length: 30749
+Content-Length: 30732
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -484,23 +482,23 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Fi
 Referer: https://ebutik.pl/client-orders.php?display=closed
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=9; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; page_counter=9; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
 </httpSample>
-<httpSample t="801" it="0" lt="417" ct="170" ts="1511133056791" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="26148" sby="2674" ng="1" na="1" hn="DESKTOP-7DAA6AL">
-  <httpSample t="417" it="0" lt="417" ct="170" ts="1511133056791" s="true" lb="https://ebutik.pl/login.php?operation=logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="543" sby="1363" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+<httpSample t="538" it="0" lt="425" ct="167" ts="1511217421320" s="true" lb="Logout" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="25936" sby="2674" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+  <httpSample t="425" it="0" lt="425" ct="167" ts="1511217421320" s="true" lb="https://ebutik.pl/login.php?operation=logout" rc="302" rm="Found" tn="Grupa wątków 1-1" dt="text" by="543" sby="1363" ng="1" na="1" hn="DESKTOP-7DAA6AL">
     <responseHeader class="java.lang.String">HTTP/1.1 302 Found
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:59 GMT
+Date: Mon, 20 Nov 2017 22:37:02 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 0
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=11; expires=Mon, 20-Nov-2017 23:04:19 GMT; Max-Age=86000
-Set-Cookie: REGID=0; expires=Fri, 18-May-2018 23:10:59 GMT; Max-Age=15552000; path=/
+Set-Cookie: page_counter=11; expires=Tue, 21-Nov-2017 22:30:22 GMT; Max-Age=86000
+Set-Cookie: REGID=0; expires=Sat, 19-May-2018 22:37:02 GMT; Max-Age=15552000; path=/
 Set-Cookie: login=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0
 Location: https://ebutik.pl/
 </responseHeader>
@@ -515,25 +513,24 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/ 
 Host: ebutik.pl
 </requestHeader>
-    <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=10; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+    <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; page_counter=10</cookies>
     <method class="java.lang.String">GET</method>
     <queryString class="java.lang.String"></queryString>
     <redirectLocation class="java.lang.String">https://ebutik.pl/</redirectLocation>
   </httpSample>
-  <httpSample t="383" it="0" lt="351" ct="0" ts="1511133057209" s="true" lb="https://ebutik.pl/" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="25605" sby="1311" ng="1" na="1" hn="DESKTOP-7DAA6AL">
+  <httpSample t="112" it="0" lt="79" ct="0" ts="1511217421746" s="true" lb="https://ebutik.pl/" rc="200" rm="OK" tn="Grupa wątków 1-1" dt="text" by="25393" sby="1311" ng="1" na="1" hn="DESKTOP-7DAA6AL">
     <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:59 GMT
+Date: Mon, 20 Nov 2017 22:37:02 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=12; expires=Mon, 20-Nov-2017 23:04:19 GMT; Max-Age=86000
-X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:59 GMT; Max-Age=15552000
+Set-Cookie: page_counter=12; expires=Tue, 21-Nov-2017 22:30:22 GMT; Max-Age=86000
+X-Cache-Engine: m
 Vary: Accept-Encoding
-Content-Length: 25043
+Content-Length: 24976
 Content-Encoding: gzip
 </responseHeader>
     <requestHeader class="java.lang.String">Connection: keep-alive
@@ -547,23 +544,22 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/ 
 Host: ebutik.pl
 </requestHeader>
-    <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; samedayZipcode=97-400; LANGID=pol; __IAIRSABTVARIANT__=2; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; page_counter=11; REGID=0; login=deleted</cookies>
+    <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; samedayZipcode=97-400; LANGID=pol; __IAIRSABTVARIANT__=1; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; page_counter=11; REGID=0; login=deleted</cookies>
     <method class="java.lang.String">GET</method>
     <queryString class="java.lang.String"></queryString>
   </httpSample>
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 19 Nov 2017 23:10:59 GMT
+Date: Mon, 20 Nov 2017 22:37:02 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
-Set-Cookie: page_counter=12; expires=Mon, 20-Nov-2017 23:04:19 GMT; Max-Age=86000
-X-UA-Compatible: IE=edge,chrome=1
-Set-Cookie: RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; expires=Fri, 18-May-2018 23:10:59 GMT; Max-Age=15552000
+Set-Cookie: page_counter=12; expires=Tue, 21-Nov-2017 22:30:22 GMT; Max-Age=86000
+X-Cache-Engine: m
 Vary: Accept-Encoding
-Content-Length: 25043
+Content-Length: 24976
 Content-Encoding: gzip
 </responseHeader>
   <requestHeader class="java.lang.String">Connection: keep-alive
@@ -577,7 +573,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Referer: https://ebutik.pl/ 
 Host: ebutik.pl
 </requestHeader>
-  <cookies class="java.lang.String">client=8o0brhims938gf4e3drnha4sc3; basket_id=8o0brhims938gf4e3drnha4sc3; __IAI_AC2=5a120f4c2c7d76.92302651; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=2; page_counter=10; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D</cookies>
+  <cookies class="java.lang.String">client=mm30fn187s1rejsbb6hh1bnl73; basket_id=mm30fn187s1rejsbb6hh1bnl73; __IAI_AC2=5a1358d78f2c04.55486632; CURRID=PLN; login=aleksandra_kwapisz@wp.pl; samedayZipcode=97-400; REGID=1143020003; LANGID=pol; __IAIRSABTVARIANT__=1; RSSID=VnIV%2Fn56pGpefniUxfM6b95lUFi9kKic5%2F%2B2IcnmsA8%3D; page_counter=10</cookies>
   <method class="java.lang.String">GET</method>
   <queryString class="java.lang.String"></queryString>
   <redirectLocation class="java.lang.String">https://ebutik.pl/</redirectLocation>
