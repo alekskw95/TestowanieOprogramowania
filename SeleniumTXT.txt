@@ -1,0 +1,17 @@
+SELENIUM:
+Pobraæ:
+Chrome web engine
+Selenium web drive
+Chrome driver
+
+1)
+cd C:\new\chromedriver_win32
+chromedriver.exe
+2)
+cd C:\new\chromedriver_win32
+java -Dwebdriver.chrome.driver=C:\new\chromedriver_win32\chromedriver.exe -jar selenium-server-standalone-2.52.0.jar
+
+[ java -Dwebdriver.chrome.driver=C:\chromedriver.exe -jar C:\selenium-server-standalone-2.52.0.jar -port 4440
+seleniumeasy.com/test ]
+
+[ java -Dwebdriver.chrome.driver=sciezka -jar sciezkaselenium.jar -port ]
