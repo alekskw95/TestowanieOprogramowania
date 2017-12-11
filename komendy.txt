@@ -1,9 +1,0 @@
-1) 
-cd C:\Users\aleks\Desktop\SeleniumT
-chromedriver.exe
-
-2)
-cd C:\Users\aleks\Desktop\SeleniumT
-java -Dwebdriver.chrome.driver=C:\Users\aleks\Desktop\SeleniumT\chromedriver.exe -jar selenium-server-standalone-2.52.0.jar
-
-java -Dwebdriver.chrome.driver=C:\Users\aleks\Desktop\SeleniumT\chromedriver.exe -jar C:\Users\aleks\Desktop\SeleniumT\selenium-server-standalone-2.52.0.jar -port 4440 seleniumeasy.com/test
