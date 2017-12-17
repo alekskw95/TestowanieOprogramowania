@@ -12,20 +12,14 @@ public class Object7 {
 		this.driver = driver;
 	}
 	
-	By selectBtn = By.xpath("//span[@class='select2-selection select2-selection--single']");
-	//By selectBtn1 = By.xpath("//span[@class='select2-search select2-search--dropdown']");
-	//By selectBtn2 = By.xpath("//span[@id='select2-bst9-container']");
-	By selectBtn3 = By.xpath("//select[@id='files']");
-	
+	By GclickBtn = By.xpath("//button[@type='button'][@class='btn btn-success btn-filter'][@data-target='pagado']");
+	By OclickBtn = By.xpath("//button[@type='button'][@class='btn btn-warning btn-filter'][@data-target='pendiente']");
+	By RclickBtn = By.xpath("//button[@type='button'][@class='btn btn-danger btn-filter'][@data-target='cancelado']");
 
-	public void selectButton() throws InterruptedException
+	public void clickButton()
     {
-		driver.findElement(selectBtn).click(); 
-		Thread.sleep(5000);
-		//driver.findElement(selectBtn1).click();
-		//Thread.sleep(5000);
-		//driver.findElement(selectBtn2).
-		//Thread.sleep(5000);
-    	driver.findElement(selectBtn3).click();
+    	driver.findElement(GclickBtn).click();
+    	driver.findElement(OclickBtn).click();
+    	driver.findElement(RclickBtn).click();
     }
 }

@@ -16,9 +16,7 @@ public class testSelenium {
 	@Before
 	public void setUp()
 	{
-		System.setProperty("webdriver.gecko.driver", "F:/ECLIPSEoxygen/eclipse-workspace/seleniumjar/geckodriver.exe");
-
-		
+		System.setProperty("webdriver.gecko.driver", "F:/ECLIPSEoxygen/eclipse-workspace/seleniumjar/geckodriver.exe");	
 	}
 	
 	
@@ -128,12 +126,11 @@ public class testSelenium {
 	public void testPage7() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.seleniumeasy.com/test/jquery-dropdown-search-demo.html");
+		driver.get("http://www.seleniumeasy.com/test/table-records-filter-demo.html");
 		
 		Object7 object = new Object7(driver);
-		Thread.sleep(5000);
-		
-		object.selectButton();
+		Thread.sleep(5000);	
+		object.clickButton();
 		Thread.sleep(5000);
 
 		driver.quit();
@@ -198,4 +195,5 @@ public class testSelenium {
 
 		driver.quit();
 	}
+	
 }
