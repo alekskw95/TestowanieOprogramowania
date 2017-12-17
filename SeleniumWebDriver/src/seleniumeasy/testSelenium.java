@@ -22,8 +22,8 @@ public class testSelenium {
 	}
 	
 	
-	/*@Test
-	public void testPage() throws InterruptedException //Dzia³a
+	@Test
+	public void testPage() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/basic-checkbox-demo.html");
@@ -39,25 +39,25 @@ public class testSelenium {
 	}
 	
 	@Test
-	public void testPage2() throws InterruptedException //Dzia³a
+	public void testPage2() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/basic-first-form-demo.html");
 		
 		Object2 object = new Object2(driver);
       
-		object.clickOnTextBox("TEST");
+		object.clickOnTextBox("SELENIUM");
 		Thread.sleep(5000);
-		object.totalAB("10","27");
+		object.totalAB("21","58");
 		Thread.sleep(5000);
-		Assert.assertTrue(driver.getPageSource().contains("37"));
-		Assert.assertTrue(driver.getPageSource().contains("TEST"));
+		Assert.assertTrue(driver.getPageSource().contains("17"));
+		Assert.assertTrue(driver.getPageSource().contains("SELENIUM"));
 		
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage3() throws InterruptedException //Dziala
+	@Test
+	public void testPage3() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/basic-radiobutton-demo.html");
@@ -73,10 +73,10 @@ public class testSelenium {
 		Thread.sleep(5000);
 		
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage4() throws InterruptedException  //Dziala
+	@Test
+	public void testPage4() throws InterruptedException  
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
@@ -92,23 +92,11 @@ public class testSelenium {
 		Thread.sleep(5000);
 		
 		driver.quit();
-	}*/
+	}
+	
 	
 	@Test
-	public void testPage11() throws InterruptedException 
-	{
-		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.seleniumeasy.com/test/input-form-demo.html");
-		
-		Object11 object = new Object11(driver);
-      
-		object.setForm("Agata","Nowakowska","now@pp.pl","821-452-7484","Wesola 26","Lodz","4444","double.com","Testing Selenium Page");
-		
-
-		driver.quit();
-	}
-	/*@Test
-	public void testPage5() throws InterruptedException //Dzia³a
+	public void testPage5() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/data-list-filter-demo.html");
@@ -120,10 +108,10 @@ public class testSelenium {
 		Thread.sleep(5000);
 
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage6() throws InterruptedException //Dzia³a
+	@Test
+	public void testPage6() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/generate-file-to-download-demo.html");
@@ -134,10 +122,10 @@ public class testSelenium {
 
 		
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage7() throws InterruptedException //Dzia³a
+	@Test
+	public void testPage7() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/jquery-dropdown-search-demo.html");
@@ -149,10 +137,10 @@ public class testSelenium {
 		Thread.sleep(5000);
 
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage8() throws InterruptedException //Dziala
+	@Test
+	public void testPage8() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/jquery-download-progress-bar-demo.html");
@@ -164,10 +152,10 @@ public class testSelenium {
 		object.closeButton();
 
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage9() throws InterruptedException //Dziala
+	@Test
+	public void testPage9() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/bootstrap-download-progress-demo.html");
@@ -178,10 +166,10 @@ public class testSelenium {
 		Thread.sleep(5000);
 		
 		driver.quit();
-	}*/
+	}
 	
-	/*@Test
-	public void testPage10() throws InterruptedException //Dziala
+	@Test
+	public void testPage10() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.seleniumeasy.com/test/bootstrap-modal-demo.html");
@@ -194,5 +182,20 @@ public class testSelenium {
 		Thread.sleep(5000);
 		
 		driver.quit();
-	}*/
+	}
+	
+	@Test
+	public void testPage11() throws InterruptedException 
+	{
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://www.seleniumeasy.com/test/input-form-demo.html");
+		
+		Object11 object = new Object11(driver);
+      
+		object.contact("Agata","Nowakowska","now@pp.pl","821-452-7484","Wesola 26","Lodz","C","4444","double.com","Testing Selenium Page");
+		
+		object.submitButton();
+
+		driver.quit();
+	}
 }
