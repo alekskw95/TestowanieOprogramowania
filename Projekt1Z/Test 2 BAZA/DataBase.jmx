@@ -31,10 +31,10 @@
           <stringProp name="checkQuery">Select 1</stringProp>
           <stringProp name="connectionAge">5000</stringProp>
           <stringProp name="dataSource">TEST</stringProp>
-          <stringProp name="dbUrl">jdbc:mysql://127.0.0.1:3306/hotels</stringProp>
+          <stringProp name="dbUrl">jdbc:mysql://127.0.0.1:3306/hotelebaza</stringProp>
           <stringProp name="driver">com.mysql.jdbc.Driver</stringProp>
           <boolProp name="keepAlive">true</boolProp>
-          <stringProp name="password">wmmtxb200695</stringProp>
+          <stringProp name="password">wmmtxb</stringProp>
           <stringProp name="poolMax">10</stringProp>
           <stringProp name="timeout">10000</stringProp>
           <stringProp name="transactionIsolation">DEFAULT</stringProp>
@@ -43,7 +43,7 @@
         </JDBCDataSource>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV VALUE" enabled="true">
-          <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\VALUE.csv</stringProp>
+          <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\VALUE.csv</stringProp>
           <stringProp name="fileEncoding">UTF-8</stringProp>
           <stringProp name="variableNames">name,name2</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -55,7 +55,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV INSERT" enabled="true">
-          <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\INSERT.csv</stringProp>
+          <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\INSERT.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">nazwa,miejscowosc,ulica,numer,telefon,www</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -67,7 +67,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Konfiguracja plików CSV UPDATE" enabled="true">
-          <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\UPDATE.csv</stringProp>
+          <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\UPDATE.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">mzmiana,hotel,mstare</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -82,7 +82,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="X" elementType="Argument">
               <stringProp name="Argument.name">X</stringProp>
-              <stringProp name="Argument.value">200</stringProp>
+              <stringProp name="Argument.value">20</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -151,7 +151,7 @@ if(vars.getObject(&quot;Request_1&quot;).size() != 0) {
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\DataBaseConnectionYesOrNo.csv</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\DataBaseConnectionYesOrNo.csv</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -163,7 +163,7 @@ from hotele
 where miejscowosc=&apos;${name}&apos; or miejscowosc=&apos;${name2}&apos;;</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
-          <stringProp name="variableNames">T</stringProp>
+          <stringProp name="variableNames"></stringProp>
           <stringProp name="resultVariable"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
           <stringProp name="resultSetHandler">Store as String</stringProp>
@@ -214,7 +214,7 @@ else{
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -241,8 +241,7 @@ from hotele;</stringProp>
 }
 else{
 	FailureMessage = &quot; 1 &quot;;
-}
-</stringProp>
+}</stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
@@ -276,7 +275,7 @@ else{
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -288,7 +287,7 @@ values(&apos;${nazwa}&apos;,&apos;${miejscowosc}&apos;,&apos;${ulica}&apos;,&apo
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="variableNames"></stringProp>
-          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="resultVariable">Request_2</stringProp>
           <stringProp name="queryTimeout"></stringProp>
           <stringProp name="resultSetHandler">Store as String</stringProp>
         </JDBCSampler>
@@ -303,8 +302,7 @@ values(&apos;${nazwa}&apos;,&apos;${miejscowosc}&apos;,&apos;${ulica}&apos;,&apo
 }
 else{
 	FailureMessage = &quot; 1 &quot;;
-}
-</stringProp>
+}</stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
@@ -338,7 +336,7 @@ else{
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -401,7 +399,7 @@ else{
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
@@ -463,7 +461,7 @@ else{
                 <assertionsResultsToSave>0</assertionsResultsToSave>
               </value>
             </objProp>
-            <stringProp name="filename">D:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
+            <stringProp name="filename">F:\STUDIA\3 ROK\5 semestr\Podstawy testowania oprogramowania\Projekt1Z\Test 2 BAZA\db_performance_Alert.txt</stringProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>

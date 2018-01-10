@@ -1,15 +1,66 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1511217365774,1093,Page,200,OK,Grupa wątków 1-1,text,true, Icons-> SMOKE_TEST_PASSED,25704,504,1,1,1084,0,915
-1511217368387,220,icons,200,OK,Grupa wątków 1-1,bin,true,,3002,615,1,1,217,0,179
-1511217373504,964,Login,200,OK,Grupa wątków 1-1,text,true, History-> SMOKE_TEST_PASSED,21741,1525,1,1,461,0,183
-1511217376723,542,History,200,OK,Grupa wątków 1-1,text,true,,20641,877,1,1,493,0,176
-1511217381158,583,CustomerData,200,OK,Grupa wątków 1-1,text,true,,23770,835,1,1,550,0,175
-1511217385141,595,Orders,200,OK,Grupa wątków 1-1,text,true, Order-> SMOKE_TEST_PASSED,20641,843,1,1,564,0,170
-1511217389105,702,Order703194,200,OK,Grupa wątków 1-1,text,true,,60992,461,1,1,626,0,165
-1511217393011,251,Photo703194,200,OK,Grupa wątków 1-1,bin,true,,26332,460,1,1,213,0,175
-1511217397450,204,Facture703194,200,OK,Grupa wątków 1-1,bin,true,,4991,459,1,1,202,0,167
-1511217401512,699,SearchProduct,200,OK,Grupa wątków 1-1,text,true, Product-> SMOKE_TEST_PASSED,20768,834,1,1,669,0,171
-1511217405017,248,SearchProductIcon,200,OK,Grupa wątków 1-1,bin,true,,28036,460,1,1,211,0,175
-1511217413429,1571,Search Page Product Random,200,OK,Grupa wątków 1-1,text,true, Value occurs ,31542,830,1,1,1535,0,170
-1511217416123,329,Search Page Product Random 2,200,OK,Grupa wątków 1-1,text,true, Value does not exist ,31149,879,1,1,287,0,171
-1511217421320,538,Logout,200,OK,Grupa wątków 1-1,text,true,,25936,2674,1,1,425,0,167
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+icons,
+icons,
+icons,
+icons,
+icons,
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+History,
+History,
+History,
+History,
+History,
+CustomerData,
+CustomerData,
+CustomerData,
+CustomerData,
+CustomerData,
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Order703194,
+Order703194,
+Order703194,
+Order703194,
+Order703194,
+Photo703194,
+Photo703194,
+Photo703194,
+Photo703194,
+Photo703194,
+SearchProduct, Product-> SMOKE_TEST_PASSED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProductIcon,
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Logout,
+Logout,
+Logout,
+Logout,
+Logout,
