@@ -1,0 +1,67 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1515969603973,1477,Page,200,OK,Grupa wątków 1-1,text,true, Icons-> SMOKE_TEST_PASSED,23523,504,3,3,1452,0,1277
+1515969604568,882,Page,200,OK,Grupa wątków 1-2,text,true, Icons-> SMOKE_TEST_PASSED,23525,504,3,3,857,0,682
+1515969605285,336,Page,200,OK,Grupa wątków 1-3,text,true, Icons-> SMOKE_TEST_PASSED,23525,504,3,3,305,0,178
+1515969605993,349,Page,200,OK,Grupa wątków 1-4,text,true, Icons-> SMOKE_TEST_PASSED,23526,504,4,4,318,0,167
+1515969606608,407,Page,200,OK,Grupa wątków 1-5,text,true, Icons-> SMOKE_TEST_PASSED,23526,504,5,5,377,0,197
+1515969615351,208,icons,200,OK,Grupa wątków 1-3,bin,true,,3002,615,5,5,208,0,168
+1515969618625,200,icons,200,OK,Grupa wątków 1-2,bin,true,,3002,615,5,5,199,0,163
+1515969621782,202,icons,200,OK,Grupa wątków 1-1,bin,true,,3002,615,5,5,202,0,166
+1515969631333,202,icons,200,OK,Grupa wątków 1-4,bin,true,,3002,615,5,5,201,0,167
+1515969639293,214,icons,200,OK,Grupa wątków 1-5,bin,true,,3002,615,5,5,214,0,173
+1515969643493,1314,Login,200,OK,Grupa wątków 1-3,text,true, History-> SMOKE_TEST_PASSED,23793,1511,5,5,499,0,216
+1515969647510,1218,Login,200,OK,Grupa wątków 1-2,text,true, History-> SMOKE_TEST_PASSED,23789,1507,5,5,430,0,191
+1515969651511,1272,Login,200,OK,Grupa wątków 1-1,text,true, History-> SMOKE_TEST_PASSED,23807,1525,5,5,422,0,184
+1515969655510,1276,Login,200,OK,Grupa wątków 1-4,text,true, History-> SMOKE_TEST_PASSED,23786,1507,5,5,463,0,209
+1515969659498,1383,Login,200,OK,Grupa wątków 1-5,text,true, History-> SMOKE_TEST_PASSED,23798,1511,5,5,400,0,173
+1515969662391,816,History,200,OK,Grupa wątków 1-3,text,true,,22368,867,5,5,785,0,163
+1515969666491,901,History,200,OK,Grupa wątków 1-2,text,true,,22367,866,5,5,870,0,173
+1515969670438,973,History,200,OK,Grupa wątków 1-1,text,true,,22739,877,5,5,942,0,164
+1515969674434,847,History,200,OK,Grupa wątków 1-4,text,true,,22366,865,5,5,817,0,169
+1515969678327,834,History,200,OK,Grupa wątków 1-5,text,true,,22372,869,5,5,802,0,169
+1515969682904,936,CustomerData,200,OK,Grupa wątków 1-3,text,true,,25342,825,5,5,902,0,167
+1515969686817,997,CustomerData,200,OK,Grupa wątków 1-2,text,true,,25330,824,5,5,963,0,170
+1515969690747,976,CustomerData,200,OK,Grupa wątków 1-1,text,true,,25737,835,5,5,942,0,173
+1515969694875,926,CustomerData,200,OK,Grupa wątków 1-4,text,true,,25328,823,5,5,895,0,170
+1515969698888,935,CustomerData,200,OK,Grupa wątków 1-5,text,true,,25339,827,5,5,905,0,172
+1515969702783,879,Orders,200,OK,Grupa wątków 1-3,text,true, Order-> SMOKE_TEST_PASSED,22368,833,5,5,849,0,182
+1515969706725,893,Orders,200,OK,Grupa wątków 1-2,text,true, Order-> SMOKE_TEST_PASSED,22367,832,5,5,848,0,166
+1515969710745,970,Orders,200,OK,Grupa wątków 1-1,text,true, Order-> SMOKE_TEST_PASSED,22739,843,5,5,925,0,167
+1515969714793,963,Orders,200,OK,Grupa wątków 1-4,text,true, Order-> SMOKE_TEST_PASSED,22366,831,5,5,933,0,176
+1515969718783,1346,Orders,200,OK,Grupa wątków 1-5,text,true, Order-> SMOKE_TEST_PASSED,22372,835,5,5,1316,0,176
+1515969722828,1794,Order703194,200,OK,Grupa wątków 1-3,text,true,,67418,897,5,5,964,0,172
+1515969726816,1027,Order703194,200,OK,Grupa wątków 1-2,text,true,,67277,895,5,5,901,0,181
+1515969730740,1226,Order703194,200,OK,Grupa wątków 1-1,text,true,,64568,461,5,5,1161,0,173
+1515969734750,985,Order703194,200,OK,Grupa wątków 1-4,text,true,,67277,893,5,5,853,0,170
+1515969738366,983,Order703194,200,OK,Grupa wątków 1-5,text,true,,67277,901,5,5,853,0,171
+1515969741928,236,Photo703194,200,OK,Grupa wątków 1-3,bin,true,,26389,450,5,5,231,0,163
+1515969746692,265,Photo703194,200,OK,Grupa wątków 1-2,bin,true,,26332,449,5,5,216,0,173
+1515969750496,247,Photo703194,200,OK,Grupa wątków 1-1,bin,true,,26332,460,5,5,209,0,174
+1515969754736,231,Photo703194,200,OK,Grupa wątków 1-4,bin,true,,26332,448,5,5,199,0,164
+1515969758739,244,Photo703194,200,OK,Grupa wątków 1-5,bin,true,,26332,452,5,5,209,0,175
+1515969763485,1720,SearchProduct,200,OK,Grupa wątków 1-3,text,true, Product-> SMOKE_TEST_FAILED,22399,1643,5,5,911,0,189
+1515969767458,962,SearchProduct,200,OK,Grupa wątków 1-2,text,true, Product-> SMOKE_TEST_FAILED,22257,1641,5,5,866,0,168
+1515969771474,1107,SearchProduct,200,OK,Grupa wątków 1-1,text,true, Product-> SMOKE_TEST_PASSED,21922,834,5,5,1070,0,173
+1515969775490,1084,SearchProduct,200,OK,Grupa wątków 1-4,text,true, Product-> SMOKE_TEST_FAILED,22257,1639,5,5,971,0,170
+1515969779475,952,SearchProduct,200,OK,Grupa wątków 1-5,text,true, Product-> SMOKE_TEST_FAILED,22258,1647,5,5,856,0,168
+1515969781856,895,Orders Failure,200,OK,Grupa wątków 1-3,text,true, Order 2-> SMOKE_TEST_FAILED,22369,833,5,5,862,0,173
+1515969786737,982,Orders Failure,200,OK,Grupa wątków 1-2,text,true, Order 2-> SMOKE_TEST_FAILED,22368,832,5,5,951,0,164
+1515969790602,266,SearchProductIcon,200,OK,Grupa wątków 1-1,bin,true,,28093,460,5,5,261,0,178
+1515969794616,1086,Orders Failure,200,OK,Grupa wątków 1-4,text,true, Order 2-> SMOKE_TEST_FAILED,22367,831,5,5,1053,0,186
+1515969798748,1208,Orders Failure,200,OK,Grupa wątków 1-5,text,true, Order 2-> SMOKE_TEST_FAILED,22373,835,5,5,1189,0,172
+1515969802812,3923,Search Page Product Random,200,OK,Grupa wątków 1-3,text,true, Value occurs ,33670,821,5,5,3885,0,165
+1515969806725,2581,Search Page Product Random,200,OK,Grupa wątków 1-2,text,true, Value occurs ,34058,820,5,5,2542,0,193
+1515969811458,1422,Orders Failure,200,OK,Grupa wątków 1-1,text,true, Order 2-> SMOKE_TEST_FAILED,22739,843,5,5,1387,0,179
+1515969814631,2794,Search Page Product Random,200,OK,Grupa wątków 1-4,text,true, Value occurs ,34459,819,5,5,2683,0,187
+1515969818506,7001,Search Page Product Random,200,OK,Grupa wątków 1-5,text,true, Value occurs ,33732,823,5,5,6956,0,278
+1515969819787,6405,Search Page Product Random 2,200,OK,Grupa wątków 1-3,text,true, Value does not exist ,31499,870,5,5,6371,0,169
+1515969825133,1162,Search Page Product Random 2,200,OK,Grupa wątków 1-2,text,true, Value does not exist ,31358,869,5,5,1125,0,259
+1515969832718,333,Search Page Product Random 2,200,OK,Grupa wątków 1-5,text,true, Value does not exist ,31360,872,5,5,287,0,173
+1515969830287,2888,Search Page Product Random,200,OK,Grupa wątków 1-1,text,true, Value occurs ,34461,830,5,5,2836,0,172
+1515969832926,435,Search Page Product Random 2,200,OK,Grupa wątków 1-4,text,true, Value does not exist ,31358,868,5,5,378,0,249
+1515969837302,1453,Logout,200,OK,Grupa wątków 1-3,text,true,,23906,2660,5,5,786,0,168
+1515969846547,876,Logout,200,OK,Grupa wątków 1-2,text,true,,23765,2659,4,4,773,0,181
+1515969851378,937,Logout,200,OK,Grupa wątków 1-5,text,true,,23766,2664,3,3,820,0,165
+1515969852831,362,Search Page Product Random 2,200,OK,Grupa wątków 1-1,text,true, Value does not exist ,31358,879,2,2,327,0,200
+1515969859275,900,Logout,200,OK,Grupa wątków 1-4,text,true,,23766,2658,2,2,796,0,167
+1515969863345,860,Logout,200,OK,Grupa wątków 1-1,text,true,,23763,2674,1,1,757,0,179

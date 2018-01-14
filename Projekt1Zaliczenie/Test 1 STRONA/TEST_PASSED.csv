@@ -1,0 +1,66 @@
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+Page, Icons-> SMOKE_TEST_PASSED
+icons,
+icons,
+icons,
+icons,
+icons,
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+Login, History-> SMOKE_TEST_PASSED
+History,
+History,
+History,
+History,
+History,
+CustomerData,
+CustomerData,
+CustomerData,
+CustomerData,
+CustomerData,
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Orders, Order-> SMOKE_TEST_PASSED
+Order703194,
+Order703194,
+Order703194,
+Order703194,
+Order703194,
+Photo703194,
+Photo703194,
+Photo703194,
+Photo703194,
+Photo703194,
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_PASSED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+SearchProduct, Product-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+SearchProductIcon,
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Orders Failure, Order 2-> SMOKE_TEST_FAILED
+Search Page Product Random, Value occurs 
+Search Page Product Random, Value occurs 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random 2, Value does not exist 
+Search Page Product Random, Value occurs 
+Search Page Product Random 2, Value does not exist 
+Logout,
+Logout,
+Logout,
+Search Page Product Random 2, Value does not exist 
+Logout,
+Logout,
