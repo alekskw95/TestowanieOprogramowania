@@ -30,7 +30,7 @@ public class Tests {
 	}
 	
 	@Test
-	public void CheckBoxtestObject() throws InterruptedException 
+	public void CheckBoxObject() throws InterruptedException 
 	{
 		driver.get(object.ReturnNameWebsite()+"basic-checkbox-demo.html");
 		
@@ -42,11 +42,11 @@ public class Tests {
 	}
 
 	@Test
-	public void BasicFirstFormSingleInputFieldObject2() throws InterruptedException 
+	public void SingleInputFieldObject2() throws InterruptedException 
 	{
 		driver.get(object.ReturnNameWebsite()+"basic-first-form-demo.html");
 		
-		BasicFirstForm object2 = new BasicFirstForm(driver);
+		SingleInputField object2 = new SingleInputField(driver);
       
 		object2.clickOnTextBox();
 		Assert.assertTrue(driver.getPageSource().contains("Please enter your Message"));
@@ -69,11 +69,11 @@ public class Tests {
 	}
 	
 	@Test
-	public void SelectDropDownObject4() throws InterruptedException  
+	public void SelectDropDownSelectListObject4() throws InterruptedException  
 	{
 		driver.get(object.ReturnNameWebsite()+"basic-select-dropdown-demo.html");
 		
-		SelectDropDown object4 = new SelectDropDown(driver);
+		SelectDropDownSelectList object4 = new SelectDropDownSelectList(driver);
       
 		object4.clickOnButton();
 		object4.selectValueClick();
@@ -112,11 +112,11 @@ public class Tests {
 	}
 	
 	@Test
-	public void TableRecordsFilterObject7() throws InterruptedException 
+	public void TableRecordsFilterColorEmotObject7() throws InterruptedException 
 	{
 		driver.get(object.ReturnNameWebsite()+"table-records-filter-demo.html");
 		
-		TableRecordsFilter object7 = new TableRecordsFilter(driver);
+		TableRecordsFilterColorEmot object7 = new TableRecordsFilterColorEmot(driver);
 		
 		object7.clickButtonGreen();
 		Assert.assertEquals("No Change Object Green Emot", true, object7.isElementOnPage("green"));
@@ -143,11 +143,11 @@ public class Tests {
 	}
 	
 	@Test  
-	public void BootstrapDownloadProgressObject9() throws InterruptedException 
+	public void BootstrapDownloadProgressBarObject9() throws InterruptedException 
 	{
 		driver.get(object.ReturnNameWebsite()+"bootstrap-download-progress-demo.html");
 		
-		BootstrapDownloadProgress object9 = new BootstrapDownloadProgress(driver);
+		BootstrapDownloadProgressBar object9 = new BootstrapDownloadProgressBar(driver);
 
 		object9.downloadButtonClick();
 
@@ -189,8 +189,7 @@ public class Tests {
 		object11.enterWeb("double.com");
 		object11.clickHosting();
 		object11.clickProjectDescription();
-		object11.enterProjectDescription("Testing Selenium Page");
-		
+		object11.enterProjectDescription("Testing Selenium Page");	
 	
 		object11.submitButton();
 		Assert.assertTrue(driver.getPageSource().contains("Contact Us Today!"));

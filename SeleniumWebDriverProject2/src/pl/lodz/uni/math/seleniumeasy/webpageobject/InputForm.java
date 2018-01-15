@@ -2,6 +2,7 @@ package pl.lodz.uni.math.seleniumeasy.webpageobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class InputForm {
 	
@@ -19,6 +20,14 @@ public class InputForm {
 	By hosting = By.xpath("//input[@name='hosting'][@value='no'][@type='radio']");
 	By projectDescription = By.xpath("//textarea[@name='comment']");
 	By savebutton = By.xpath("//button[@class='btn btn-default']");
+	
+	By ifFirstName = By.xpath("/html/body/div[2]/div/div[2]/section/form/fieldset/div[1]/div/div/input");
+
+	
+	public WebElement ifFirstName()
+	{
+		return driver.findElement(ifFirstName);
+	}
 	
 	public InputForm(WebDriver driver)
 	{

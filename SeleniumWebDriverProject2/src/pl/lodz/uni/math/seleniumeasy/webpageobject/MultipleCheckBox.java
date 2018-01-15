@@ -10,6 +10,8 @@ public class MultipleCheckBox {
 	By checkAll = By.xpath("//input[@value='Check All']");
 	By UnCheckAll = By.xpath("//input[@value='Uncheck All']");
     
+	By ifCheckAll = By.xpath("//input[@id='isChkd][@value='true'][@type='hidden']");
+	By ifUncheckAll = By.xpath("//input[@id='isChkd][@value='false'][@type='hidden']");
     
     public MultipleCheckBox(WebDriver driver)
     {
@@ -26,5 +28,10 @@ public class MultipleCheckBox {
     	driver.findElement(UnCheckAll).click();
     }
     
+    public boolean ifCheck() {
+    	
+    	driver.findElement(ifCheckAll);
+    	return true;
+    }
 
 }
