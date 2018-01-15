@@ -57,6 +57,18 @@ public class People {
 	{
 		return firstName + " " + lastName;
 	}
+	
+	public boolean ifTrueOrFalse(int number)
+	{
+	        if (number >= 0)
+	        {
+	            return true;
+	        }
+	        else
+	        {
+	            return false;
+	        }
+	}
 
 	public int multiply(int age, int number)
 	{
@@ -73,7 +85,7 @@ public class People {
 	
 	public People ifNull(int number)
 	{
-		int value = 20;
+		int value = 36;
 		if(value == number)
 		{
 			return null;
