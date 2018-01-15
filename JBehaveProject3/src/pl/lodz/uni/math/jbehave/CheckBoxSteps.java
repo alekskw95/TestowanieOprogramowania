@@ -10,7 +10,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import pl.lodz.uni.math.seleniumeasy.BasicFirstForm;
 import pl.lodz.uni.math.seleniumeasy.CheckBox;
 
 public class CheckBoxSteps extends Steps {

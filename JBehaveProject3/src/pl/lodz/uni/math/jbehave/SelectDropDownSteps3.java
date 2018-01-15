@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import pl.lodz.uni.math.seleniumeasy.CheckBox;
 import pl.lodz.uni.math.seleniumeasy.SelectDropDown;
 
 public class SelectDropDownSteps3 {
