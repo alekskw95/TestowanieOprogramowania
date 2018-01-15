@@ -6,11 +6,11 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import pl.lodz.uni.math.seleniumeasy.BasicFirstForm;
 import pl.lodz.uni.math.seleniumeasy.CheckBox;
 import pl.lodz.uni.math.seleniumeasy.GenerateFileToDownload;
 import pl.lodz.uni.math.seleniumeasy.RadioButton;
 import pl.lodz.uni.math.seleniumeasy.SelectDropDown;
+import pl.lodz.uni.math.seleniumeasy.SingleInputField;
 
 public class Tests {
 	
@@ -38,12 +38,12 @@ public class Tests {
 	}
  
 	@Test
-	public void BasicFirstFormSingleInputFieldObject2() throws InterruptedException 
+	public void SingleInputFieldObject2() throws InterruptedException 
 	{
 		WebDriver driver = new FirefoxDriver();
 		driver.get(o.ReturnNameWebsite()+"basic-first-form-demo.html");
 		
-		BasicFirstForm object = new BasicFirstForm(driver);
+		SingleInputField object = new SingleInputField(driver);
       
 		object.clickOnTextBox();
 		Assert.assertTrue(driver.getPageSource().contains("Please enter your Message"));

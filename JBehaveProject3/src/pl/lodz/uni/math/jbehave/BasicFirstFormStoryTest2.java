@@ -17,7 +17,7 @@ public class BasicFirstFormStoryTest2 extends JUnitStory{
 	@Override
 	public InjectableStepsFactory stepsFactory()
 	{
-		return new InstanceStepsFactory(configuration(), new BasicFirstFormSteps2());
+		return new InstanceStepsFactory(configuration(), new SingleInputFieldSteps2());
 	}
 
 }
